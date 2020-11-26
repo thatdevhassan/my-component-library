@@ -93,3 +93,21 @@ background-color:var(--primary-color1);
 
 
 }
+
+/* designing a header */
+
+
+.header-block .header-image{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.header-block .main{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
