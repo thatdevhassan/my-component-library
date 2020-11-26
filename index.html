@@ -5,16 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my component library</title>
+    <!-- linking css with html -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <h1>this is my component library!</h1>
+    <h1 id="myid">this is my component library!</h1>
     <hr>
     <h1>@typography</h1>
-    <h3>headinf</h3>
+    
+    <h3>heading</h3>
     <p>this is a paragraph</p>
     <small>this is relitively small text</small>
+    
+    
     <hr>
+    
+    
     <h1>@Containers</h1>
 
     <h2>fluid container</h2>
@@ -24,24 +32,29 @@
     <div>This is container number 2</div>
     <hr>
     <h1>@links</h1>
-    <a href="/">my instagram</a>
-    <a href="/">google</a>
+    <a href="/" class='link primary-link'>my instagram</a>
+    <a href="/" class="link secondary-link">google</a>
     <hr>
+
+
+
     <h1>@lists</h1>
     <h3>unordered list(ul)</h3>
 
-    <ul>
-        <li>hello</li>
-        <li>hello</li>
-        <li>hello</li>
-    </ul>
-
+    <ul class="non-bullet">
+        <li class="inline-item">Non bulleted list 1</li>
+        <li class="inline-item">Non bulleted list 2</li>
+        <li class="inline-item">Non bulleted list 3</li>
+    </ul3>
     <h3>ordered list(ol)</h3>
-    <ol>
-        <li>hi</li>
-        <li>hi</li>
-        <li>hi</li>
-    </ol>
+
+
+    <!-- using reverse property -->
+    <ol reversed>
+        <li>reversed list 1</li>
+        <li>reversed list 2</li>
+        <li>reversed list 2</li>
+    </ol2>
     <hr>
     <h1>@nav</h1>
 
@@ -62,7 +75,7 @@
 
         </ul>
     </nav>
-<hr>
+    <hr>
 
     <h1>@header</h1>
     <header>
@@ -70,25 +83,47 @@
         <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRMsyv
 -7KLXpaqqRnnuPrW6kDi-2SAQzsoYDkFybg4H-f7HVFZ1" alt="nothing" height="700" width='500'>
     </header>
-<hr>
+    <hr>
     <h1>@Sections:</h1>
-<section>
-    <p>this is a section</p>
-</section>
-<hr>
+    <section>
+        <p>this is a section</p>
+    </section>
+    <hr>
 
-<h1>@footer</h1>
+    <h1>@footer</h1>
 
-<footer>
-    <div>
-        <h3>this is inside footer</h3>
-        <ul>
-            <li>hi</li>
-            <li>wow</li>
-            <li>yo</li>
-        </ul>
-    </div>
-</footer>
+    <footer>
+        <div>
+            <h3>this is inside footer</h3>
+            <ul>
+                <li>hi</li>
+                <li>wow</li>
+                <li>yo</li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <!-- Adding buttons -->
+    <h2>Buttons</h2>
+
+    <label for="rad1">
+        <input type='radio' name="rad1" id="this" value="rad11">Hello
+    </label>
+
+    <br>
+
+    <label for="rad2">
+        <input type='radio' name="rad1" id="rad2" value="rad12">Hello
+    </label>
+    <br>
+    <!-- adding submit button -->
+
+    <form action="">
+        <input type="text" placeholder="Enter text">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
 
 </body>
 

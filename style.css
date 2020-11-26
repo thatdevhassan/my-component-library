@@ -1,0 +1,72 @@
+/** 
+to access an id we use #id{}
+to access a class we use .classname{}
+abc{} = here abc is  a selector
+
+to instantiate a variable we use --variable-name: value;
+
+@import to import fonts (using google fonts link)
+
+**/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* 
+creating a variable */
+
+:root{
+    --primary-color1: #34D399
+;
+    --primary-color2: #6EE7B7;
+
+    --primary-color3:#A7F3D0;
+
+    --primary-color4:#D1FAE5;
+
+    --primary-color5:#ECFDF5;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/* setting a font */
+body{
+    font-family: "Montserrat",
+    'sans-serrif';
+}
+
+
+/* designing links */
+.link{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0.5rem 0.7rem;
+}
+ 
+
+.primary-link{
+background-color:var(--primary-color1);
+    color:black;
+}
+
+
+.secondary-link{
+    background-color:var(--primary-color4);
+    color:black;      
+}
+    
+
+
+/* desinging lists */
+
+.non-bullet{
+    list-style:none;
+}
+/* 
+.inline-item{
+    display:inline;
+} */
+
+
