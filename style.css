@@ -118,8 +118,13 @@ body {
     background: var(--primary-color3);
     border-radius: 1rem;
 
+
 }
 
+.des-section h1{
+text-align: center;
+
+}
 
 /* designing a footer */
 
