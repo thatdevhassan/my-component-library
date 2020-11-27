@@ -132,11 +132,14 @@ text-align: center;
     background: var(--primary-color3);
     color: black;
     padding: 1rem 1rem;
+    text-align:center;
     border-bottom-left-radius: 2rem;
 }
 
-.des-footer .non-bullet .credit{
-
-    text-align:left;
-
+.des-footer .foot-link{
+    display: inline;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+     
 }
+
