@@ -131,6 +131,12 @@ text-align: center;
 .des-footer {
     background: var(--primary-color3);
     color: black;
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
     border-bottom-left-radius: 2rem;
+}
+
+.des-footer .non-bullet .credit{
+
+    text-align:left;
+
 }
