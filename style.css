@@ -15,79 +15,78 @@ to instantiate a variable we use --variable-name: value;
 /* 
 creating a variable */
 
-:root{
-    --primary-color1: #34D399
-;
+:root {
+    --primary-color1: #34D399;
     --primary-color2: #6EE7B7;
 
-    --primary-color3:#A7F3D0;
+    --primary-color3: #A7F3D0;
 
-    --primary-color4:#D1FAE5;
+    --primary-color4: #D1FAE5;
 
-    --primary-color5:#ECFDF5;
+    --primary-color5: #ECFDF5;
 }
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
 
 /* setting a font */
-body{
+body {
     font-family: "Montserrat",
-    'sans-serrif';
+        'sans-serrif';
 }
 
 
 /* designing links */
-.link{
+.link {
     text-decoration: none;
     border-radius: 10px;
     padding: 0.5rem 0.7rem;
 }
- 
 
-.primary-link{
-background-color:var(--primary-color1);
-    color:black;
-    border : 0.5px solid;
+
+.primary-link {
+    background-color: var(--primary-color1);
+    color: black;
+    border: 0.5px solid;
 }
 
 
-.secondary-link{
-    background-color:var(--primary-color4);
-    color:black;  
-    border : 0.5px solid;    
+.secondary-link {
+    background-color: var(--primary-color4);
+    color: black;
+    border: 0.5px solid;
 }
-    
+
 
 
 /* desinging lists */
 
-.non-bullet{
-    list-style:none;
+.non-bullet {
+    list-style: none;
 }
 
-.inline-item{
-    display:inline;
+.inline-item {
+    display: inline;
     margin: 0rem 0.5rem;
 
 }
 
-.division{
+.division {
     font-size: 45px;
     font-weight: bold;
 }
 
 /* designing navbar */
-.navigation{
+.navigation {
 
-   padding: 0.2rem 2rem;
-   background: var(--primary-color1);
-   border-bottom-left-radius: 0.5rem;
-   border-bottom-right-radius: 0.5rem;
+    padding: 0.2rem 2rem;
+    background: var(--primary-color1);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
-.navigation .personal{
+.navigation .personal {
     color: black;
     text-decoration: none;
 
@@ -97,17 +96,34 @@ background-color:var(--primary-color1);
 /* designing a header */
 
 
-.header-block .header-image{
+.header-block .header-image {
     width: 100%;
     height: auto;
 }
 
 
 
-.header-block .main{
+.header-block .main {
     text-align: center;
     width: 100%;
     height: auto;
 }
 
 
+
+/* designing a Sections */
+
+.des-section {
+    padding: 1rem 1rem;
+    background: var(--primary-color3);
+    border-radius: 1rem;
+
+}
+
+
+/* designing a footer */
+
+.des-footer {
+    background: #374151;
+    color: white
+}
