@@ -124,6 +124,8 @@ body {
 /* designing a footer */
 
 .des-footer {
-    background: #374151;
-    color: white
+    background: var(--primary-color3);
+    color: black;
+    padding: 0.5rem 0.5rem;
+    border-bottom-left-radius: 2rem;
 }
